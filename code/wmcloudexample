@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+from dataapi import Client
+if __name__ == "__main__":
+    try:
+        client = Client()
+        client.init('ec401353e11cd728472e9027e6d900387511e6c3cf5b54d8f277b18cc45f6bcd')
+
+        url1='/api/macro/getChinaDataGDP.csv?field=&indicID=M010000002&endDate=2015-11-25'
+        code, result = client.getData(url1)
+        if code==200:
+            print result
+        else:
+            print code
+            print result
+        '''
+        url2='/api/macro/getChinaDataInterestRateLendingDeposit.csv?field=&indicID=M120000011&indicName=&beginDate=&endDate='
+        code, result = client.getData(url2)
+        print result
+
+        if(code==200):
+            file_object = open('C:\pythoncoding\programming trade\wmcloseplate\\ChinaDataInterestRateLendingDeposit.csv', 'w')
+            file_object.write(result)
+            file_object.close( )
+        else:
+            print code
+            print result
+        '''
+    except Exception, e:
+        #traceback.print_exc()
+        raise e

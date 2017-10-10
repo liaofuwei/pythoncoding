@@ -1,0 +1,10 @@
+create table weather2012(
+date char(25) not null default "",
+temp float(3,1) not null default 0.0,
+dew_point_temp float(3,1) not null default 0.0,
+rel_hum tinyint unsigned not null default 0,
+wind_spd_km_h tinyint unsigned not null default 0,
+visibility_km float(3,1) not null default 0.0,
+stn_press_kpa float(6,2) not null default 0.0,
+weather varchar(40) not null default ""
+)engine myisam charset utf8;

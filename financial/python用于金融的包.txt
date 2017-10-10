@@ -1,0 +1,15 @@
+1. NumPy：实现各种数组对象函数和傅立叶变换等等科学计算模块。
+2. SciPy：提供更多科学计算功能，包括矩阵，求解线性方程组，积分运算，优化等。
+3. matplotlib：一个跨平台的数值绘图包，可绘制高质量的2D，3D图像。
+4. MySQL for Python：Python操作MySQL数据库的接口软件包。
+5. PyQT：一个QT的Python界面GUI开发包。
+6. xlrd：开发提取Microsoft Excel的数据的工具库。
+7. RPy2：著名统计软件R的python界面包，可在python内执行各种R功能函数。
+8. NetworkX：一个分析网络数据的工具。
+9. SymPy：含有algebraic evaluation,differentiation,expansion,complex numbers等功能。
+10. Boost.Python：提供C++和Python互操作的C++库。
+11. PyMC：实现MH算法的Python类，提供灵活的建模功能。
+12. SimPy：一个面向对象，基于过程和离散事件的模拟语言，拥有基于代理的整体交付的建模环境。
+13. Pycluster：高效的继承和k-means聚类的实现。
+14. NLTK：应用在python环境的面向符号和统计的自然语言工具。
+15. wxPython：一组Python扩展模块，跨平台，包括各种从wxWidgets发展的GUI类
